@@ -1,0 +1,19 @@
+.message-area{
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.message-area h1.welcoming-header{
+    font-size: 3rem;
+    /* Create a linear gradient */
+    background: linear-gradient(to right, var(--primary-accent), var(--primary-accent-700));
+
+    /* Set background-clip to text */
+    -webkit-background-clip: text;
+     background-clip: text;
+
+    /* Hide the original text */
+    color: transparent;
+}

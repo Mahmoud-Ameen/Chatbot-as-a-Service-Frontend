@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Original Colors */
+  --primary-accent: #c90682;
+  --primary-accent-700: #641346;
+
+  /* Light and Dark Shades */
+  --lightest: #ffffff;  /* Font weight: 100 */
+  --lighter: #f5f5f5;   /* Font weight: 200 */
+  --light: #cccccc;     /* Font weight: 300 */
+  --dark: #666666;      /* Font weight: 400 */
+  --darker: #333333;    /* Font weight: 500 */
+  --darkest: #212121;   /* Font weight: 600 */
+
+  /* Usage-specific Colors */
+  --background-color: var(--darkest);
+  --text-color: var(--light);
+  --border-color: var(--neutral-light-200); /* Adjust as needed */
+  /* Add more usage-specific variables */
+  
+  /* Usage-specific Colors in terms of Shades */
+  --background-light: var(--lighter);
+  --background-dark: var(--darker);
+  --text-light: var(--light);
+  --text-dark: var(--dark);
+}
+
+.container {
+  max-width: 55rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem; 
+  padding-right: 1.5rem;
+}
+
+/* Optional: Add a media query for responsive design */
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px; 
+  }
+}

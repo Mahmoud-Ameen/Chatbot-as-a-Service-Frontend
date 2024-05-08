@@ -1,0 +1,18 @@
+.message {
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    max-width: 70%;
+}
+
+.user {
+    background-color: var(--primary-accent);
+    color: #ffffff;
+    align-self: flex-start;
+}
+
+.chatbot {
+    background-color: var(--darker);
+    color: #eaeaea;
+    align-self: flex-end;
+}

@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    
+    /* background: var(--darker); */
+    background: linear-gradient(90deg, var(--darkest) 0%, #292929 100%);
+        color: var(--text-color);
+    font-family:'Helvetica' ;
+    padding: 2rem;
+
+    display: flex;
+}
+
